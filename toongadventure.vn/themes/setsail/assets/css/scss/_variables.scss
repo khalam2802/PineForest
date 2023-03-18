@@ -1,0 +1,90 @@
+$breakpoints: (
+    laptop-landscape-large: 1440px,
+    laptop-landscape-mac: 1366px,
+    laptop-landscape-medium: 1280px,
+    laptop-landscape: 1200px,
+    ipad-landscape: 1024px,
+    ipad-portrait: 768px,
+    phone-landscape: 680px,
+    phone-portrait: 480px,
+    smaller-phone-portrait: 320px
+);
+
+$grid-width: 1100px;
+$grid-width-laptop-landscape: 950px;
+$grid-width-ipad-landscape: 768px;
+$grid-width-ipad-portrait: 600px;
+$grid-width-phone-landscape: 420px;
+$grid-width-phone-portrait: 300px;
+$grid-width-smaller-phone-portrait: 90%;
+
+$grid-width-boxed: 1150px;
+$grid-width-laptop-landscape-boxed: 1000px;
+$grid-width-ipad-landscape-boxed: 818px;
+$grid-width-ipad-portrait-boxed: 650px;
+$grid-width-phone-landscape-boxed: 470px;
+$grid-width-phone-portrait-boxed: 350px;
+$grid-width-smaller-phone-portrait-boxed: 92%;
+
+$grid-width-1300: 1300px;
+$grid-width-1200: 1200px;
+$grid-width-1000: 1000px;
+$grid-width-800: 800px;
+
+$default-text-font: 'Poppins', sans-serif;
+$additional-text-font: 'Catamaran', sans-serif;
+$custom-text-font: 'Satisfy', cursive;
+
+$first-main-color: #3fd0d4;
+$second-main-color: #3abdc1;
+$default-heading-color: #212121;
+$default-text-color: #505050;
+$additional-text-color: #848484;
+$solid-button-hover-bg-color: #23a9af;
+
+$default-background-color: #fff;
+$additional-background-color: #f8f8f8;
+$default-border-color: #d4d3d3;
+$additional-border-color: #ebebeb;
+$default-border-radius: 6px;
+
+$default-box-shadow: 0 3px 20px 5px rgba(#000,.03);
+$additional-box-shadow: 5px 8px 13.92px 2.08px rgba(#000,.05);
+$clients-box-shadow: 5px 8px 13.92px 2.08px rgba(#000,.1);
+$menu-drop-down-box-shadow: 0 3px 13px 0px rgba(#000,.03);
+$tours-filter-shadow: 0 3px 13px 0px rgba(#000,.07);
+$boxed-template-shadow: 0 9px 16px 13px rgba(#000,.03);
+$left-menu-box-shadow: 0 3px 13px 0 rgba(#000,.05);
+$top-reviews-shadow: 0px 0px 45.92px 0.08px rgba(#000,.07);
+
+$header-light-color: #fff;
+$header-light-hover-color: $first-main-color;
+$header-dark-color: $default-heading-color;
+$header-dark-hover-color: $first-main-color;
+
+// input elements
+$input-height: 50px;
+$sselect-input-height: $input-height;
+$input-vertical-padding: 12px;
+$input-horizontal-padding: 16px;
+$input-margin: 6px;
+
+// responsive breakpoints
+$laptop-landscape-large-plus-pixel: 1441px;
+$laptop-landscape-large: 1440px;
+$laptop-landscape-mac-plus-pixel: 1367px;
+$laptop-landscape-mac: 1366px;
+$laptop-landscape-medium-plus-pixel: 1281px;
+$laptop-landscape-medium: 1280px;
+$laptop-landscape-plus-pixel: 1201px;
+$laptop-landscape: 1200px;
+$ipad-landscape-plus-pixel: 1025px;
+$ipad-landscape: 1024px;
+$ipad-portrait-plus-pixel: 769px;
+$ipad-portrait: 768px;
+$phone-landscape-plus-pixel: 681px;
+$phone-landscape: 680px;
+$phone-portrait-plus-pixel: 481px;
+$phone-portrait: 480px;
+$smaller-phone-portrait-plus-pixel: 321px;
+$smaller-phone-portrait: 320px;

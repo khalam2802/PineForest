@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+@import '../../../../../themes/setsail/assets/css/scss/variables';
+@import '../../../../../themes/setsail/assets/css/scss/mixins';
+
+/* ==========================================================================
+   Default Responsive styles
+   ========================================================================== */
+@import "responsive/common-responsive.scss";
+
+/* ==========================================================================
+   Custom Post Types styles
+   ========================================================================== */
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/destinations/shortcodes/destination-grid/assets/css/scss/responsive/destination-grid-responsive.scss";
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/destinations/shortcodes/destination-with-tours/assets/css/scss/responsive/destination-with-tours-responsive.scss";
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/tours/assets/css/scss/responsive/booking-form/booking-form-responsive.scss";
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/tours/assets/css/scss/responsive/checkout/checkout-responsive.scss";
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/tours/assets/css/scss/responsive/general/tour-item-list-responsive.scss";
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/tours/assets/css/scss/responsive/search/ordering-responsive.scss";
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/tours/assets/css/scss/responsive/single/_single-responsive.scss";
+@import "D:/projects/lively/wp-content/plugins/setsail-tours/post-types/tours/shortcodes/tours-filter/assets/css/scss/responsive/tours-filters-responsive.scss";

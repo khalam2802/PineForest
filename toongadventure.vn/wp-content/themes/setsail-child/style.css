@@ -1,0 +1,1187 @@
+/*
+Theme Name: SetSail Child
+Theme URI: http://setsail.select-themes.com
+Description: A child theme of SetSail Theme
+Author: Select Themes
+Author URI: http://themeforest.net/user/select-themes
+Version: 1.0.0
+Text Domain: setsail
+Template: setsail
+*/
+
+/*
+
+Color text      #0b403b
+
+*/
+.qodef-page-header .qodef-menu-area {
+    background-color: unset;
+}
+
+.qodef-vertical-align-containers.header-rightleft .qodef-position-center {
+    position: unset;
+    width: unset;
+}
+
+.qodef-fixed-header-appear .header-rightleft {
+    background-color: #0b4041;
+}
+
+
+.qodef-vertical-align-containers.header-rightleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qodef-vertical-align-containers.header-rightleft, .qodef-vertical-align-containers.header-rightleft .qodef-position-left, .qodef-vertical-align-containers.header-rightleft .qodef-position-center, .qodef-vertical-align-containers.header-rightleft .qodef-position-right {
+    height: unset;
+}
+
+.qodef-page-header .qodef-menu-area {
+    /*height: 120px;*/
+}
+
+.qodef-page-header .qodef-vertical-align-containers {
+    padding: 16px 0 16px;
+}
+
+.qodef-gim-title-and-price-holder a.qodef-tours-toong-item-link .qodef-tour-title {
+    font-family: iCiel-Brush-Up;
+    font-weight: 100;
+    color: #0b403b;
+}
+
+.qodef-tours-type-toong-2.qodef-tours-columns-4 .qodef-tours-masonry-item .qodef-tours-gim-holder-inner {
+    padding: 5px
+}
+
+.qodef-tours-type-toong-2.qodef-tours-columns-4 .qodef-tours-gim-image img {
+    max-height: 144px;
+}
+
+.qodef-tours-type-toong .qodef-gim-title-and-price-holder .qodef-tours-item-price, .qodef-tours-type-toong .qodef-tours-tour-categories-item a .qodef-tour-cat-item-text {
+    color: #0b403b;
+}
+
+.widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown:hover .wpml-ls-sub-menu, .widget_icl_lang_sel_widget .wpml-ls-legacy-dropdown-click:hover .wpml-ls-sub-menu {
+    height: auto;
+}
+
+.qodef-page-footer .widget a {
+    color: white;
+}
+
+
+.qodef-tours-tour-attributes-item {
+    padding: 3px 5px;
+    background: #0b4041;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 15px;
+    position: relative;
+    border-radius: 2px;
+    line-height: 1;
+}
+
+.qodef-tours-type-toong .qodef-tours-viewmore a, .qodef-tours-tour-attributes-item a {
+    color: #DACEA2;
+    font-family: iCiel-Brush-Up;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.qodef-tours-list-item-attributes-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.qodef-tours-tour-attributes-item:before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid #0b4041;
+}
+
+.qodef-tours-tour-attributes-item:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: -4px;
+    top: 44%;
+    transform: translateY(-50%);
+}
+
+.qodef-ts-list-body {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.qodef-ts-list-body .duration-text, .qodef-ts-list-body .grade-text, .qodef-tours-price .from-price, .qodef-tours-list-item-attributes-item {
+    font-size: 16px;
+    color: #0b4041;
+    font-weight: 600;
+}
+
+.qodef-tours-type-toong .qodef-tours-price-holder .qodef-tours-item-price, .qodef-tours-type-toong-2 .qodef-tours-price-holder .qodef-tours-item-price {
+    font-family: iCiel-Brush-Up;
+    font-weight: 100;
+    color: #0b403b;
+    letter-spacing: 3px;
+    display:block;
+}
+
+.qodef-ts-list-body .duration-item, .qodef-ts-list-body .qodef-item-reviews-average-rating, .qodef-tours-type-toong-2 .qodef-tours-list-item-difficult-item, .qodef-td-items.tour .qodef-tours-list-item-difficult-item {
+    font-size: 20px;
+    color: #0b4041;
+    font-family: HelveticaNeue-CondensedBlack, sans-serif;
+    text-align: center;
+}
+
+.qodef-tours-list-item-duration-item {
+    display: inline-block;
+    float: left;
+    border-right: 2px solid #0b4041;
+    padding: 10px;
+}
+
+.qodef-tours-list-item-duration-grade-item {
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+}
+
+.qodef-tours-type-toong .qodef-tours-viewmore {
+    background-color: #0b4041;
+    display: inline-block;
+    float: right;
+    padding: 11px 5px 4px 8px;
+    border-radius: 6px;
+    margin-top: 3px;
+    max-height: 47px;
+}
+
+
+.qodef-tours-type-toong .qodef-tours-price {
+    display: inline-block;
+    float: left;
+}
+
+.qodef-tours-type-toong .qodef-tours-gim-holder-inner {
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.qodef-tours-gim-content-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.qodef-gim-title-and-price-holder {
+    width: 100%;
+}
+
+.qodef-tours-type-toong .qodef-tours-masonry-item {
+
+}
+
+.qodef-tours-gim-image {
+    width: auto;
+    padding: 5px;
+}
+
+.qodef-tours-type-toong .qodef-tours-gim-image {
+
+}
+
+/*
+.qodef-tours-type-toong li.qodef-tour-list-filter-item {
+    margin: 1px 0 !important;
+}*/
+
+@media only screen and (max-width:426px){
+
+    .qodef-tours-type-toong li.qodef-tour-list-filter-item {
+        margin: 1px 0 !important;
+    }
+}
+
+.qodef-tours-type-toong li.qodef-tour-list-filter-item a {
+    padding: 10px 10px 5px 10px;
+    width: 170px;
+}
+
+.qodef-tours-type-toong li.qodef-tour-list-filter-item a .qodef-btn-text {
+    font-family: HelveticaNeue-CondensedBlack, sans-serif;
+    color: white;
+    font-size: 20px
+}
+
+
+.qodef-tours-type-toong .qodef-tours-gim-holder-inner > a.qodef-tours-toong-item-link {
+    display: block;
+    border: 5px solid #fff;
+}
+
+.qodef-tours-type-toong .qodef-tour-title {
+    font-size: 24px;
+    padding: 15px 0 10px 0;
+}
+
+/*shortcode tour destination*/
+
+.qodef-tours-type-toong .qodef-tours-tour-attributes-item a {
+    font-size: 13px;
+}
+
+.qodef-tours-type-toong .qodef-tour-list-filter-item.qodef-tour-list-current-filter a {
+    /*border-color: #23a9af;*/
+    border:none;
+    background-color: #23a9af;
+    color: #fff;
+}
+
+
+/*end shortcode tourdes*/
+
+.qodef-tours-type-toong-2 .qodef-gim-title-and-price-holder .qodef-tours-list-item-difficult-item, .qodef-td-items.tour .qodef-tours-list-item-difficult-item {
+    display: inline-block;
+    float: right;
+    width: 65px;
+    padding-top: 10px;
+}
+
+
+.qodef-tours-type-toong-2 a.qodef-tours-toong-item-link {
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.qodef-tours-type-toong-2 .qodef-gim-title-and-price-holder a.qodef-tours-toong-item-link, .qodef-td-items.tour .qodef-gim-title-and-price-holder a.qodef-tours-toong-item-link {
+    display: inline-block;
+    text-decoration: none !important;
+    max-width: calc(100% - 65px);
+}
+
+.qodef-tours-type-toong-2 .qodef-tours-tour-difficult-item, .qodef-td-items.tour .qodef-tours-tour-difficult-item {
+    display: inline-block;
+}
+
+
+.qodef-tours-type-toong-2 .qodef-tours-masonry-item .qodef-tours-gim-holder-inner {
+    padding: 15px;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+}
+
+
+.myLoading-indicator {
+    font-size: 4px;
+    border: 5px solid #0b4041;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.myLoading-indicator-circle-wrap {
+    width: 10em;
+    height: 10em;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.myLoading-indicator-circle-wrap .mask,
+.myLoading-indicator-circle-wrap .fill {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.myLoading-indicator-circle-wrap .mask {
+    clip: rect(0, 10em, 10em, 5em);
+}
+
+.myLoading-indicator-circle-wrap .mask .fill {
+    clip: rect(0, 5em, 10em, 0);
+    background-color: #0b4041;
+}
+
+.myLoading-indicator-circle-wrap .mask.full,
+.myLoading-indicator-circle-wrap .fill {
+    animation: fill ease-in-out 1s;
+    transform: rotate(140deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(140deg);
+    }
+}
+
+.myLoading-indicator-circle-wrap .inside-circle {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: #0b4041;
+}
+
+.qodef-main-menu .menu-item-language ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(25, 25, 25, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.qodef-main-menu .menu-item-language, .qodef-main-menu .lang-item.menu-item {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    white-space: nowrap;
+}
+
+.qodef-mobile-header .qodef-mobile-logo-wrapper a {
+    height: 51px !important;
+}
+
+.qodef-main-menu .menu-item-language:hover ul.sub-menu {
+    display: block;
+    top: 25px;
+    left: 30px;
+    padding: 10px;
+}
+
+h1.qodef-st-title, h2.qodef-st-title {
+    text-transform: uppercase;
+}
+
+
+.icon-doitac .qodef-iwt-icon img {
+    width: 144px;
+}
+
+
+.qodef-vertical-align-containers.header-rightleft a {
+    font-family: HelveticaNeue-CondensedBlack, sans-serif;
+    color: white;
+}
+
+.qodef-vertical-align-containers.header-rightleft .qodef-logo-wrapper a {
+    max-height: 51px !important;
+}
+
+.f-36 .qodef-st-title {
+    font-size: 36px !important;
+}
+
+
+.qodef-tours-dwt-holder .qodef-tdi-rating-and-price-holder {
+    justify-content: left;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items.tour .qodef-tdi-price-holder {
+    color: white;
+    text-align: right;
+}
+
+.qodef-tours-type-toong-2 .qodef-tour-title, .qodef-td-items.tour .qodef-tour-title {
+    padding: 10px
+}
+
+.qodef-footer-column-2.widget_media_image a:first-child {
+    max-width: 51%;
+}
+
+.qodef-footer-column-3.widget_custom_html h5 {
+    margin: 41px 0 20px !important;
+    font-size: 25px;
+}
+
+.qodef-icon-widget-holder .qodef-icon-text {
+    position: absolute;
+
+}
+
+.icon-doitac .wpb_wrapper {
+    display: flex;
+}
+
+#media_image-2 {
+    max-width: 114px;
+}
+
+#media_image-11 {
+    max-width: 189px;
+}
+
+.qodef-page-header {
+    display: block;
+}
+
+
+/*sticky header*/
+.qodef-sticky-header .qodef-vertical-align-containers .qodef-position-center {
+    position: unset;
+    width: unset;
+    height: unset;
+}
+
+.qodef-sticky-header .qodef-sticky-holder.qodef-menu-center {
+    background-color: #0b4041 !important;
+
+}
+
+.qodef-sticky-header .qodef-sticky-holder a {
+    font-family: HelveticaNeue-CondensedBlack, sans-serif !important;;
+    color: white !important;;
+}
+
+.qodef-sticky-header .qodef-sticky-holder .qodef-vertical-align-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* testimoinal SC*/
+.qodef-testimonials-holder .qodef-testimonial-text {
+    font-size: 18px !important;
+}
+
+
+/* image gallery SC*/
+
+
+.qodef-ig-toong-type.qodef-grid-list.qodef-five-columns .qodef-item-space:not(:first-child) {
+    margin-left: -20px;
+}
+
+.qodef-ig-toong-type.qodef-grid-list.qodef-five-columns .qodef-item-space:nth-child(2n) {
+    transform: translateY(-20px);
+}
+
+.qodef-tours-dwt-holder .qodef-td-items {
+    padding: 5px;
+    margin: 0 15px;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items:not(.destination) {
+    -webkit-box-shadow: 0 0 38px rgba(0, 0, 0, .3), 0 0 12px rgba(0, 0, 0, .22);
+    -moz-box-shadow: 0 0 38px rgba(0, 0, 0, .3), 0 0 12px rgba(0, 0, 0, .22);
+    box-shadow: 0 0 38px rgba(0, 0, 0, .3), 0 0 38px rgba(0, 0, 0, .22);
+}
+
+.qodef-tours-dwt-holder .qodef-td-items .qodef-tdi-content-holder {
+    position: initial;
+    width: auto;
+    height: auto;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items.tour .qodef-tdi-image {
+    padding: 5px;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items.tour .qodef-tdi-image:hover img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
+.qodef-tours-dwt-holder .qodef-td-items.tour .qodef-tdi-image:after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 99%;
+    background: url('assets/image/pattern.png') center/100% 100% no-repeat;
+    opacity: 1;
+}
+
+
+.qodef-tours-dwt-holder .qodef-td-items:not(.destination) .qodef-tdi-image img {
+    display: block;
+    max-height: 144px;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items.destination .qodef-tdi-image img {
+    width: auto;
+    margin: auto;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items.destination .qodef-tdi-image:before {
+    background: #fff;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items .qodef-tdi-content-holder-inner {
+    padding: 10px;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items .qodef-tdi-title,
+.qodef-tours-dwt-holder .qodef-td-items.tour .qodef-tdi-price-holder {
+    color: #0b403b;
+}
+
+.qodef-tours-dwt-holder .qodef-td-items.tour .qodef-tdi-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.qodef-tours-type-toong-2 .qodef-tours-gim-image:after {
+    top: 0 !important;
+    left: 0 !important;
+    width: 99% !important;
+    height: 99% !important;
+}
+
+/*-------------------------*/
+
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal_loading {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 1) url('https://i.stack.imgur.com/FhHRx.gif') 50% 50% no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+.qodef-tours-list-holder.loading .modal_loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+.qodef-tours-list-holder.loading .modal_loading {
+    display: block;
+}
+
+/*contact form lien he toong*/
+.cf-lien-he .wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-number, .wpcf7-form-control.wpcf7-date {
+    background-color: transparent;
+}
+
+.cf-lien-he li label {
+    display: none !important;
+}
+
+.cf-lien-he .btn-submit-cf {
+    text-align: center;
+
+}
+
+.cf-lien-he .btn-submit-cf input {
+    background-color: #DE7001 !important;
+    font-size: 15px;
+    width: auto;
+    border-radius: 10px;
+    padding: 7px 15px;
+
+}
+
+.cf-lien-he ol {
+    list-style: none;
+}
+
+.cf-lien-he input {
+    color: white !important;
+    border: 1px solid white !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.cf-lien-he input[type="date"] {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 7px 5px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/*.introduction .wpb_text_column.wpb_content_element{
+	width:90%;
+	padding-left:16px;
+}
+*/
+.introduction .image-introduction .vc_single_image-wrapper {
+    width: 450px;
+}
+
+.d-flex {
+    displaY: flex !important;
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.ly-do .vc_col-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.ly-do .wpb_video_widget .wpb_wrapper iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ly-do .vc_inner > div[class*=vc_col] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ly-do .vc_inner .vc_column-inner {
+    background-color: #fff;
+    box-shadow: 0 0 15px #dedede;
+    padding: 40px 20px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.ly-do .vc_inner .vc_col-inner .vc_col-title {
+    color: #03413b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ly-do span.icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 15px;
+    top: -35px;
+    background-color: #faa342;
+    background-position: center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+
+.ly-do span.icon.icon-pro {
+    background-image: url(https://toongadventure.vn/wp-content/themes/setsail-child/assets/image/icon/icon-community.jpg);
+}
+
+.ly-do span.icon.icon-unique {
+    background-image: url(https://toongadventure.vn/wp-content/themes/setsail-child/assets/image/icon/icon-unique.jpg);
+}
+
+.ly-do span.icon.icon-sustain {
+    background-image: url(https://toongadventure.vn/wp-content/themes/setsail-child/assets/image/icon/icon-sustain.jpg);
+}
+
+.ly-do span.icon.icon-community {
+    background-image: url(https://toongadventure.vn/wp-content/themes/setsail-child/assets/image/icon/icon-community.jpg);
+}
+
+.ly-do span.icon.icon-safe {
+    background-image: url(https://toongadventure.vn/wp-content/themes/setsail-child/assets/image/icon/icon-safe.jpg);
+}
+
+
+/*your prepare*/
+.your-prepare-col-1 .vc_column-inner {
+    padding-right: 0 !important;
+}
+
+.your-prepare-col-2 .vc_column-inner {
+    padding-left: 0 !important;
+}
+
+#your-prepare {
+    background-position: top !important;
+}
+
+#toong-prepare {
+    background-position: top !important;
+}
+
+#your-prepare h2.vc_custom_heading {
+    margin: 0 0 2rem 8rem;
+}
+
+#why-choose-us.vc_row {
+    background-position: top !important;
+}
+
+#news-shortcode.vc_row {
+    background-position: top !important;
+}
+
+#note-join.vc_row {
+    background-position: top !important;
+}
+
+#toong-prepare h2.vc_custom_heading {
+    margin: 0 0 2rem 8rem;
+}
+
+
+/*----------------------- ThÃ´ng tin cáº§n lÆ°u Ã½------------------------ */
+.thong-tin-luu-y {
+    padding: 10px 20px 40px 20px;
+    width: 100%;
+    display: block;
+}
+
+.thong-tin-luu-y h3 {
+    color: #05433b;
+    font-weight: 600;
+}
+
+.thong-tin-luu-y .col-list {
+    padding-left: 10px;
+}
+
+.thong-tin-luu-y ul {
+    padding-left: 10px;
+}
+
+.thong-tin-luu-y li {
+    list-style: none;
+}
+
+.thong-tin-luu-y .col-list-1 li i {
+    padding: 5px;
+    color: green;
+    font-size: 13px;
+}
+
+.thong-tin-luu-y .col-list-2 li i {
+    padding: 5px;
+    color: red;
+    font-size: 13px;
+}
+
+.thong-tin-luu-y span {
+
+}
+
+.thong-tin-luu-y .col-list-1 {
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+
+.thong-tin-luu-y .col-list-2 {
+    width: 40%;
+    display: inline-block;
+
+}
+
+.thong-tin-luu-y .xheader {
+    font-weight: bold;
+    color: #05433b;
+    font-size: 18px;
+}
+
+.thong-tin-luu-y a.btn-hoan-huy {
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color: #05433b;
+}
+
+/*shotcode team trangchu*/
+
+.shortcode-team-trangchu .shortcode-team-user .shortcode-team-user-des {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+
+/*cost-promo*/
+#cost-promo .qodef-elements-holder .qodef-eh-item {
+    vertical-align: top
+}
+
+#cost-promo .qodef-iwt-icon {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cost-promo .qodef-iwt-icon img {
+    width: auto !important;
+    height: auto !important;
+    max-height: 100px;
+    max-width: 120px;
+}
+
+/*----------------- thÃ´ng tin cáº§n lÆ°u Ã½ end*/
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    #cost-promo .qodef-slicksyncing-title {
+        background-size: 300px 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #thong-tin-hiden-mobile {
+        display: none;
+    }
+
+    #cost-promo .qodef-slicksyncing-title {
+        background-size: 300px 100px;
+        font-size: 30px;
+    }
+
+    #cost-promo .custom-head-money {
+        font-size: 30px !important;
+    }
+
+}
+
+/*-------------------------- contacform - end -------------------------*/
+
+
+@media only screen and (min-width: 1200px) {
+    .qodef-no-space .qodef-outer-space {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .qodef-grid-list:not(.qodef-one-columns) .qodef-item-space {
+        float: none;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .qodef-tours-type-toong-2.qodef-tours-columns-4 .qodef-tours-gim-image img,
+    .qodef-tours-dwt-holder .qodef-td-items:not(.destination) .qodef-tdi-image img {
+        max-height: 194px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .qodef-ig-toong-type.qodef-grid-list.qodef-five-columns .qodef-item-space {
+        width: 21.6%
+    }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1025px) {
+    .qodef-ig-toong-type.qodef-grid-list.qodef-five-columns .qodef-item-space:nth-child(4n+1) {
+        clear: unset
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .qodef-container-inner, .qodef-grid, .qodef-row-grid-section {
+        width: 990px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .qodef-ig-toong-type.qodef-grid-list.qodef-five-columns .qodef-item-space {
+        transform: translate(0) !important;
+        margin-left: 0 !important;
+        clear: unset !important;
+        width: 20%;
+    }
+
+    .qodef-container-inner, .qodef-grid, .qodef-row-grid-section {
+        width: 768px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .qodef-vertical-align-containers.header-rightleft {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .qodef-vertical-align-containers.header-rightleft {
+        display: none;
+    }
+
+    .qodef-container-inner, .qodef-grid, .qodef-row-grid-section {
+        width: 640px;
+    }
+
+    .qodef-td-items.tour.dis-none {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .qodef-ig-toong-type.qodef-grid-list.qodef-five-columns .qodef-item-space {
+        width: 50%;
+    }
+
+    #note-join h2 + div.vc_row, #why-choose-us .d-flex-mb {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .qodef-container-inner, .qodef-grid, .qodef-row-grid-section {
+        width: 460px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .qodef-ig-toong-type.qodef-grid-list.qodef-five-columns .qodef-item-space {
+        width: 100%;
+    }
+
+    #experience .qodef-slicksyncing-title {
+        /*background-size: 350px 110px;*/
+        font-size: 1.6rem;
+    }
+
+    .news-shortcode h2 + .vc_row {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .shortcode-team-user.style-1 {
+        display: block !important;
+    }
+
+    .shortcode-team-user.style-1 .shortcode-team-user_top,
+    .shortcode-team-user.style-1 .shortcode-team-user_bottom {
+        width: 100% !important;
+    }
+
+    .shortcode-team-user.style-1 .shortcode-team-user-image {
+        height: 310px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .tour-item-template-default .qodef-page-footer {
+        margin-top: -360px;
+    }
+
+    #price-tour.vc_custom_heading {
+        font-size: 3.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .qodef-container-inner, .qodef-grid, .qodef-row-grid-section {
+        width: 340px;
+    }
+
+    .qodef-tours-dwt-holder .qodef-td-items.tour .qodef-tdi-image {
+        margin-bottom: -5px;
+    }
+
+    .qodef-tours-gim-content-holder .difficult-text {
+        margin-bottom: -5px;
+    }
+
+
+    .about-3value {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .qodef-tours-dwt-holder .qodef-td-items {
+        padding: 0;
+        margin: 0 5px;
+    }
+
+    .qodef-td-items.tour .qodef-tour-title {
+        padding: 5px;
+    }
+
+    .qodef-td-items.tour h4.qodef-tour-title {
+        font-size: 10px;
+    }
+
+    .qodef-td-items.tour .qodef-tours-list-item-difficult-item {
+        font-size: 10px;
+        padding-top: 0;
+    }
+
+    .myLoading-indicator {
+        font-size: 3px;
+        margin-bottom: -5px;
+    }
+
+    .myLoading-indicator-circle-wrap {
+        width: 6em;
+        height: 6em;
+    }
+
+    .myLoading-indicator-circle-wrap .mask, .myLoading-indicator-circle-wrap .fill {
+        width: 6em;
+        height: 6em;
+    }
+
+    .myLoading-indicator-circle-wrap .inside-circle {
+        font-size: 13px;
+    }
+
+    .tour-item-template-default .qodef-page-footer {
+        margin-top: -390px;
+    }
+
+
+    /*ly do nen chon to ong trangchu*/
+    .ly-do-nen-chon {
+
+    }
+
+    .ly-do-nen-chon .vc_row.wpb_row.vc_inner.vc_row-fluid {
+        display: flex;
+
+    }
+
+
+    /*ly do nen chon to ong trangchu*/
+    /*shortcode team trangchu*/
+    .shortcode-team-trangchu {
+        padding: 0 !important;
+    }
+
+    .shortcode-team-trangchu .shortcode-team-user.style-2 .holder-col-1 {
+        display: inline-block;
+        width: 40%;
+    }
+
+    /*
+        .shortcode-team-trangchu .shortcode-team-user.style-2 .holder-col-2 .shortcode-team-user-des {
+            font-size:
+        }*/
+    .shortcode-team-trangchu .shortcode-team-user.style-2 .holder-col-2 {
+        display: inline-block;
+        width: 60%;
+    }
+
+    .shortcode-team-trangchu .shortcode-team-user.style-2 {
+        display: flex;
+    }
+
+    .shortcode-team-trangchu .shortcode-team-user .shortcode-team-user-des {
+        font-size: 14px;
+    }
+
+    /*shortcode team trangchu*/
+    /*our-team-trangchu*/
+    .our-team-trangchu {
+        display: flex;
+        padding: 0 !important;
+    }
+
+    .our-team-trangchu .wpb_column.vc_column_container.vc_col-sm-4 {
+
+    }
+
+    /*our-team-trangchu*/
+    /*icon-doitac*/
+    .icon-doitac .qodef-iwt.clearfix.qodef-iwt-icon-top.qodef-iwt-icon-medium {
+        width: 14%;
+        padding: 2px;
+    }
+
+    /*icon-doitac*/
+
+
+}
+
+
+@media (max-width: 769px) {
+    .introduction .vc_column-inner:first-child {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-doitac .wpb_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .qodef-normal-space .qodef-outer-space {
+        margin: 30px -15px;
+    }
+
+    .ly-do .vc_video .vc_column-inner {
+        height: 500px;
+    }
+
+    .vc_video > div {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        margin-bottom: 60px;
+    }
+
+    .vc_rs-video {
+        margin: 0 !important;
+    }
+
+    .vc_rs-video > div {
+        width: 100% !important;
+    }
+
+    #note-join .vc_col-xs-6, #why-choose-us .vc_col-xs-6 {
+        width: 49%;
+    }

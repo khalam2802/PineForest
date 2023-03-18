@@ -1,0 +1,213 @@
+/*
+Theme Name: SetSail
+Theme URI: http://setsail.select-themes.com
+Description: Travel Agency Theme
+Author: Select Themes
+Author URI: http://themeforest.net/user/select-themes
+Text Domain: setsail
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready
+Version: 1.4
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+@font-face {
+    font-family: HelveticaNeue-CondensedBlack;
+    src: url('assets/fonts/HelveticaNeue-CondensedBlack.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: HelveticaNeue-Light;
+    src: url('assets/fonts/HelveticaNeue-Light.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: HelveticaNeue-Thin;
+    src: url('assets/fonts/HelveticaNeue-Thin.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: iCiel-Brush-Up;
+    src: url('assets/fonts/iCiel-Brush-Up.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: myriadpro-cond;
+    src: url('assets/fonts/myriadpro-cond.otf');
+    font-weight: normal;
+}
+
+.cf-hanh-trinh{
+    padding:40px;
+    background-color:#013f3a;
+}
+.cf-hanh-trinh h1{
+    color:white;
+    font-weight:bold;
+    font-size:2em;
+}
+.cf-hanh-trinh ol li{
+    list-style: none;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.cf-hanh-trinh .wpcf7-form-control.wpcf7-number,.cf-hanh-trinh .wpcf7-form-control.wpcf7-text, .cf-hanh-trinh .wpcf7-submit {.
+    color: #fff;
+    background-color: rgba(2, 106, 100, 0.75) !important;
+}
+.cf-hanh-trinh input[type="submit"]:hover{
+    background-color: rgba(2, 106, 100, 1) !important;
+}
+
+.cf-hanh-trinh input[type="number"], .cf-hanh-trinh input[type="text"], .cf-hanh-trinh input[type="submit"] {
+    color: #fff;
+    background-color: rgba(2, 106, 100, 0.75) !important;
+}
+.qodef-tour-booking-field-holder{
+    margin:29px 0;
+}
+.ly-do div[class*=vc_col-lg-] {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ly-do .vc_col-lg-3 {
+    width: 25%;
+}
+.ly-do .vc_col-lg-4 {
+    width: 33.333333%;
+}
+.ly-do .vc_col-lg-5 {
+    width: 41.666667%;
+}
+.ly-do .vc_col-lg-6 {
+    width: 50%;
+}
+.ly-do .vc_col-lg-7 {
+    width: 58.333333%;
+}
+.ly-do .vc_col-lg-8 {
+    width: 66.666667%;
+}
+.ly-do .vc_column_container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.ly-do .vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.ly-do .vc_column-inner::after, .vc_column-inner::before {
+    content: " ";
+    display: table;
+}
+.ly-do .vc_clearfix:after, .vc_clearfix:before {
+    content: " ";
+    display: table;
+}
+.ly-do .vc_clearfix:after {
+    clear: both;
+}
+.ly-do .vc_column-inner::after {
+    clear: both;
+}
+.ly-do .vc_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.ly-do .vc_row:after, .vc_row:before {
+    content: " ";
+    display: table;
+}
+.ly-do .vc_row:after {
+    clear: both;
+}
+.ly-do .wpb_video_widget .wpb_wrapper {
+    position: relative;
+}
+.ly-do .wpb_video_widget.vc_video-el-width-80 .wpb_wrapper {
+    width: 80%;
+}
+.ly-do .wpb_video_widget.vc_video-align-left .wpb_wrapper {
+    float: right;
+}
+.ly-do .wpb_video_widget .wpb_video_wrapper {
+    /*padding-top: 56.25%;*/
+    position: relative;
+    width: 100%;
+}
+.ly-do .wpb_video_widget.vc_video-aspect-ratio-169 .wpb_video_wrapper {
+    /*padding-top: 56.25%;*/
+}
+.ly-do .wpb_video_widget .wpb_wrapper iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ly-do .vc_custom_15752721750165 {
+    padding-top: 200px !important;
+    padding-bottom: 280px !important;
+    background-image: url(https://toongadventure.com/wp-content/uploads/2018/09/bg-video-reason.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.ly-do .vc_custom_1575265746388 {
+    margin-left: -8px !important;
+}
+.ly-do .vc_reason-item {
+    background-color: #fff;
+    box-shadow: 0 0 15px #dedede;
+    padding: 40px 20px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.ly-do .vc_col-inner .vc_col-title {
+    color: #03413b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ly-do span.icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 15px;
+    top: -35px;
+    background-color: #faa342;
+}
+.ly-do span.icon.icon-pro {
+    background: url(https://toongadventure.com/wp-content/uploads/2018/09/icon-pro.jpg) center no-repeat;
+}
+.ly-do span.icon.icon-unique {
+    background: url(https://toongadventure.com/wp-content/uploads/2018/09/icon-unique.jpg) center no-repeat;
+}
+.ly-do span.icon.icon-sustain {
+    background: url(https://toongadventure.com/wp-content/uploads/2018/09/icon-sustain.jpg) center no-repeat;
+}
+.ly-do span.icon.icon-community {
+    background: url(https://toongadventure.com/wp-content/uploads/2018/09/icon-community.jpg) center no-repeat;
+}
+.ly-do span.icon.icon-safe {
+    background: url(https://toongadventure.com/wp-content/uploads/2018/09/icon-safe.jpg) center no-repeat;
+}
